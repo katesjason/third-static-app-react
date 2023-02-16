@@ -8,19 +8,20 @@
     
     "forwardingGateway": {
       "requiredHeaders": {
-         "X-Azure-FDID" : "5ebcd9e8-9749-4f05-beb9-331ed9f7091c"
-    },
-    "allowedForwardedHosts": [
-      "tst-fd-web-app-edcjengjfnewdtaz.z01.azurefd.net"
-    ]
+        "X-Azure-FDID" : "5ebcd9e8-9749-4f05-beb9-331ed9f7091c"
+      },
+      "allowedForwardedHosts": [
+        "tst-fd-web-app-edcjengjfnewdtaz.z01.azurefd.net"
+      ]
     },
     "routes": [
       {
-          "route": "/members",
+          "route": "/*",
           "allowedRoles": ["authenticated", "members"],
           "headers": {
               "Cache-Control": "no-store"
           }
       }
-     ]
+  ]
+
 }
