@@ -16,7 +16,7 @@
     },
     "routes": [
       {
-          "route": "/*",
+          "route": "/member",
           "allowedRoles": ["authenticated", "members"],
           "headers": {
               "Cache-Control": "no-store"
