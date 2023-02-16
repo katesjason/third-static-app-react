@@ -2,4 +2,16 @@
     "navigationFallback": {
         "rewrite": "/index.html"
     }
+    "networking": {
+      "allowedIpRanges": ["AzureFrontDoor.Backend"]
+    }
+    
+    "forwardingGateway": {
+      "requiredHeaders": {
+         "X-Azure-FDID" : "f5b61913-33c8-4add-b59b-f1d6cf526f13"
+    },
+    "allowedForwardedHosts": [
+      "my-sitename.azurefd.net"
+    ]
+}
 }
