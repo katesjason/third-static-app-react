@@ -8,10 +8,10 @@
     
     "forwardingGateway": {
       "requiredHeaders": {
-         "X-Azure-FDID" : "f5b61913-33c8-4add-b59b-f1d6cf526f13"
+         "X-Azure-FDID" : "5ebcd9e8-9749-4f05-beb9-331ed9f7091c"
     },
     "allowedForwardedHosts": [
-      "jason-fd-premium-test-hgebceemfgb8h6d9.z01.azurefd.net"
+      "tst-fd-web-app-edcjengjfnewdtaz.z01.azurefd.net"
     ]
     },
     "routes": [
